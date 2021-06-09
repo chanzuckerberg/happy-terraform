@@ -7,10 +7,10 @@ import sys
 import click
 import requests
 
-github_org = "chanzuckerberg"
-github_repo = "aspen"
+github_org = "myorg"
+github_repo = "myrepo"
 github_graphql_endpoint = "https://api.github.com/graphql"
-github_deployment_endpoint = "https://api.github.com/repos/chanzuckerberg/aspen/deployments"
+github_deployment_endpoint = "https://api.github.com/repos/myorg/myrepo/deployments"
 
 
 def get_latest_successful_deployment(github_api_token, stage):
